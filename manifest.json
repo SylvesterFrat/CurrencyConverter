@@ -1,0 +1,11 @@
+{
+    "name":"Currency Converter",
+    "manifest_version": 3,
+    "version":"1.0.0",
+    "description":"This is an extension to quickly convert currencies between CAD, USD, SGD, MYR, EUR, AUD, JPY, CNH, HKD, INR, DKK, GBP, RUB, NZD, MXN, IDR, TWD, THB, and VND.",
+    "author":"Sylvester Fratarcangeli",
+    "action": {
+        "default_popup":"index.html",
+        "default_title":"Currency Converter"
+    }
+}

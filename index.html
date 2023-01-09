@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="conversionstyles.css">
+</head>
+<body>
+    <table style="width: 500px;" cellpadding="10">
+        <tbody>
+        <tr>
+        <td style="text-align: center;" colspan="3">
+        <h1><span style="color: #fff; font-family: Helvetica, sans-serif;">Currency Converter</span></h1>
+        </td>
+        </tr>
+        <tr>
+        <td style="text-align: center;" colspan="3">
+            <span style="color: #fff; font-family: Helvetica, sans-serif; font-size: 25px;">Amount<br><br></span>
+            <input type="text" id="amount">
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">CAD</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li class="active">CAD</li>
+                    <li>USD</li>
+                    <li>SGD</li>
+                    <li>MYR</li>
+                    <li>EUR</li>
+                    <li>AUD</li>
+                    <li>JPY</li>
+                    <li>CNH</li>
+                    <li>HKD</li>
+                    <li>INR</li>
+                    <li>DKK</li>
+                    <li>GBP</li>
+                    <li>RUB</li>
+                    <li>NZD</li>
+                    <li>MXN</li>
+                    <li>IDR</li>
+                    <li>TWD</li>
+                    <li>THB</li>
+                    <li>VND</li>
+
+                </ul>
+            </div>
+
+        </td>
+        <td><span style="color: #fff;">to</span></td>
+        <td>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">USD</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu">
+                    <li class="active">USD</li>
+                    <li>CAD</li>
+                    <li>SGD</li>
+                    <li>MYR</li>
+                    <li>EUR</li>
+                    <li>AUD</li>
+                    <li>JPY</li>
+                    <li>CNH</li>
+                    <li>HKD</li>
+                    <li>INR</li>
+                    <li>DKK</li>
+                    <li>GBP</li>
+                    <li>RUB</li>
+                    <li>NZD</li>
+                    <li>MXN</li>
+                    <li>IDR</li>
+                    <li>TWD</li>
+                    <li>THB</li>
+                    <li>VND</li>
+
+                </ul>
+            </div>
+        </td>
+        </tr>
+        <tr>
+        <td style="text-align: center;" colspan="3">
+            <button class="button" type="button" id="convertButton">Convert</button>
+            <script src="converter.js" type="module"></script>
+        </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="3"><span style="color:#fff; font-size: 1000;"><b id="answer"></b></span></td>
+        </tr>
+        </tbody>
+        </table>
+        <script src="dropdown.js"></script>
+</body>
+</html>
