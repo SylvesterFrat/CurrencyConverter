@@ -3,6 +3,6 @@ This is a simple Currency Converter chrome extension I made using html, css and 
 
 ## To use this program:
 - Create a Rapid API account and get a key for the Currency Exchange Rate API
-- Clone this repository and create a new config.js file with your API key instead.
+- Clone this repository and create a new config.js file with your API key instead
 - Upload this code to the Google Chrome
 - Enjoy!
