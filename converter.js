@@ -1,4 +1,4 @@
-import {MY_API_KEY} from './config.js';
+import {MY_API_KEY} from './config_sample.js';
 
 
 document.getElementById("convertButton").onclick = function() {
