@@ -25,9 +25,9 @@ document.getElementById("convertButton").onclick = function() {
 
     let fetchLine = "https://currency-exchange.p.rapidapi.com/exchange?from=" + from + "&to=" + to + "&q=1.0";
 
-    if (from.localeCompare(to) == 0) { //doesnt work
+    if (from.localeCompare(to) == 0) { 
         console.log("Value", document.getElementById('amount').value)
-        document.getElementById('answer').innerHTML = document.getElementById('amount').value;
+        document.getElementById('answer').innerHTML = document.getElementById('amount').value + " " + to;
     } else {
         fetch(fetchLine, options)
         .then(response => response.json())
